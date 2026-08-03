@@ -3,9 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IMC — Calculadora</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Calculadora de IMC (BMI) - Classificação Oficial da OMS | Vitalimetro</title>
+    <meta name="description" content="Calcule seu Índice de Massa Corporal (IMC) com base nas classificações oficiais da Organização Mundial da Saúde. Ferramenta gratuita e precisa para adultos acima de 18 anos." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vitalimetro.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vitalimetro.com/" />
+    <meta property="og:title" content="Calculadora de IMC - Classificação OMS | Vitalimetro" />
+    <meta property="og:description" content="Calcule seu IMC com base nas classificações oficiais da OMS. Ferramenta gratuita para adultos 18+." />
+    <meta property="og:image" content="https://vitalimetro.com/og-image.png" />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://vitalimetro.com/" />
+    <meta name="twitter:title" content="Calculadora de IMC - Classificação OMS | Vitalimetro" />
+    <meta name="twitter:description" content="Calcule seu IMC com base nas classificações oficiais da OMS. Ferramenta gratuita para adultos 18+." />
+    <meta name="twitter:image" content="https://vitalimetro.com/og-image.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Multi-language Support (hreflang) -->
+    <link rel="alternate" hreflang="pt-BR" href="https://vitalimetro.com/" />
+    <link rel="alternate" hreflang="en" href="https://vitalimetro.com/en/" />
+    <link rel="alternate" hreflang="pt-PT" href="https://vitalimetro.com/pt-pt/" />
+    <link rel="alternate" hreflang="es" href="https://vitalimetro.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://vitalimetro.com/" />
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "Calculadora de IMC Vitalimetro",
+          "description": "Calculadora de Índice de Massa Corporal baseada nas classificações oficiais da Organização Mundial da Saúde (OMS) para adultos acima de 18 anos",
+          "url": "https://vitalimetro.com/",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Any",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL"
+          },
+          "featureList": [
+            "Cálculo de IMC",
+            "Classificação segundo OMS",
+            "Suporte para sistema métrico e imperial",
+            "Interface em português"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "name": "Vitalimetro",
+          "url": "https://vitalimetro.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://vitalimetro.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Vitalimetro",
+          "url": "https://vitalimetro.com/",
+          "logo": "https://vitalimetro.com/og-image.png"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Portuguese (Brazil) - Main -->
+  <url>
+    <loc>https://vitalimetro.com/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vitalimetro.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitalimetro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://vitalimetro.com/pt-pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vitalimetro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitalimetro.com/" />
+  </url>
+  
+  <!-- English (Future) -->
+  <url>
+    <loc>https://vitalimetro.com/en/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vitalimetro.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitalimetro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://vitalimetro.com/pt-pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vitalimetro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitalimetro.com/" />
+  </url>
+  
+  <!-- Portuguese (Portugal) (Future) -->
+  <url>
+    <loc>https://vitalimetro.com/pt-pt/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vitalimetro.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitalimetro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://vitalimetro.com/pt-pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vitalimetro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitalimetro.com/" />
+  </url>
+  
+  <!-- Spanish (Future) -->
+  <url>
+    <loc>https://vitalimetro.com/es/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vitalimetro.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vitalimetro.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://vitalimetro.com/pt-pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vitalimetro.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vitalimetro.com/" />
+  </url>
+
+</urlset>
