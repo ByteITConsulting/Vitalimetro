@@ -1,0 +1,9 @@
+{
+  "src/**/*.{js,jsx}": [
+    "eslint --fix",
+    "npm test -- --testPathPattern=__tests__ --passWithNoTests"
+  ],
+  "*.json": [
+    "prettier --write"
+  ]
+}

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Pre-commit hook: Run security checks before commit
+# This hook runs:
+# 1. ESLint with security rules
+# 2. npm audit check
+# 3. Type validation if available
+
+set -e
+
+echo "🔒 Running security checks..."
+
+# Run linter with security rules
+echo "  ├─ Running ESLint security rules..."
+npm run lint
+
+# Run npm audit
+echo "  ├─ Checking for dependency vulnerabilities..."
+npm audit --audit-level=moderate
+
+# Run tests (optional but recommended)
+echo "  └─ Running tests..."
+npm test -- --passWithNoTests --coverage=false
+
+echo "✅ Security checks passed!"

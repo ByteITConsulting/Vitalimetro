@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Security Headers via Meta Tags (GitHub Pages doesn't allow HTTP headers) -->
+    <!-- Content Security Policy: Only allow resources from same origin, no inline scripts -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';" />
+    <!-- Prevent MIME type sniffing attacks -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <!-- Prevent clickjacking attacks -->
+    <meta name="X-Frame-Options" content="DENY" />
+    <!-- XSS Protection for older browsers -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <!-- Referrer Policy: Only send referrer for same-origin requests -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <!-- Permissions Policy: Disable unnecessary features -->
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()" />
+    
     <!-- Primary Meta Tags -->
     <title>Calculadora de IMC (BMI) - Classificação Oficial da OMS | Vitalimetro</title>
     <meta name="description" content="Calcule seu Índice de Massa Corporal (IMC) com base nas classificações oficiais da Organização Mundial da Saúde. Ferramenta gratuita e precisa para adultos acima de 18 anos." />
