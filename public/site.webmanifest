@@ -1,0 +1,11 @@
+{
+  "name": "Vitalimetro - Calculadora de IMC",
+  "short_name": "Vitalimetro",
+  "description": "Calcule seu Índice de Massa Corporal com base nas classificações oficiais da OMS.",
+  "start_url": "/Vitalimetro/",
+  "scope": "/Vitalimetro/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2ea89a",
+  "icons": []
+}
