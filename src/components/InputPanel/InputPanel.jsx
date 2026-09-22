@@ -102,10 +102,10 @@ function InputPanel({
             onChange={(e) => onHeightFtChange(parseFloat(e.target.value))}
           />
           <div className={styles.ticks}>
-            <span>4'0"</span>
-            <span>5'0"</span>
-            <span>6'0"</span>
-            <span>7'3"</span>
+            <span>4&apos;0&quot;</span>
+            <span>5&apos;0&quot;</span>
+            <span>6&apos;0&quot;</span>
+            <span>7&apos;3&quot;</span>
           </div>
         </div>
       )}
